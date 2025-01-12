@@ -34,3 +34,10 @@ let newEmailArray = students.map(({ fullname }) => {
 });
 
 console.log(newEmailArray);
+
+//the use of startsWith method:
+// students.forEach(({ fullname }) => {
+//   if (fullname.startsWith("D")) {
+//     console.log(fullname);
+//   }
+// });
